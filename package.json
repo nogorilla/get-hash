@@ -2,8 +2,8 @@
   "author": "Gabriel Smith",
   "license": "BSD-2-Clause",
   "name": "get-hash",
-  "version": "1.0.0",
-  "description": "This is my first module.",
+  "version": "1.0.1",
+  "description": "Used to generate a hash for a given id and secret",
   "bin": {
     "get-hash": "bin/get-hash.js"
   },
