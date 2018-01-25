@@ -1,0 +1,29 @@
+{
+  "author": "Gabriel Smith",
+  "license": "BSD-2-Clause",
+  "name": "get-hash",
+  "version": "0.0.1",
+  "description": "This is my first module.",
+  "bin": {
+    "get-hash": "bin/get-hash.js"
+  },
+  "main": "./lib/index.js",
+  "preferGlobal": "true",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogorilla/get-hash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nogorilla/get-hash/issues"
+  },
+  "homepage": "https://github.com/nogorilla/get-hash#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
