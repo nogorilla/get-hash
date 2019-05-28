@@ -23,4 +23,8 @@ or on commandline
 get-hash -i id -s secret
 ```
 
+to generate an ID and Secret, run without any arguments
+```bash
+get-hash
+```
 
