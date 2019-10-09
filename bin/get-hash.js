@@ -24,8 +24,9 @@ if (id !== null && secret === null) {
 }
 
 if (id === null && secret === null) {
-  const results = lib.generate();
-  console.log('ID: ', results.id);
-  console.log('SECRET: ', results.secret);
+  const result = lib.generate();
+  console.log('ID:     ', result.id);
+  console.log('SECRET: ', result.secret);
+  console.log('TOKEN:  ', lib.getHash(result.id, result.secret));
   return;
 }
